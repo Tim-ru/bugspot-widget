@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "strict": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "../dist-server",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "../dist-server",
     "noEmit": false,
     "lib": ["ESNext"],
     "skipLibCheck": true,

@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express, { Request, Response } from "express";
 import mongoose from "mongoose";
-import Report from "./models/Report";
+import Report from "./models/Report.js";
 
 const app = express();
 app.use(express.json());

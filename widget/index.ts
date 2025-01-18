@@ -7,7 +7,7 @@ interface ReportData {
 }
 
 // Импортируем стили
-import "./style.css";
+import "./src/style.css";
 
 // Создаём кнопку "Report Bug"
 const button: HTMLButtonElement = document.createElement("button");
